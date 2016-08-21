@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: testdat03270
+  host: testdat03270
+  disk_quota: 1024M
+  buildpack: php_buildpack
